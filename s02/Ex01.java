@@ -11,7 +11,11 @@ public class Ex01 extends SuperKarel {
 
 	@Override
 	public void run() {
-		// You fill this in
+		move();
+		move();
+		pickBeeper();
+		move();
+		putBeeper();
 	}
 
 }

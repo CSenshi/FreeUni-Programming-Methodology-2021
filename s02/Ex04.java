@@ -12,7 +12,10 @@ public class Ex04 extends SuperKarel {
 
 	@Override
 	public void run() {
-		// You fill this in
+		while (frontIsClear()) {
+			putBeeper();
+			move();
+		}
+		putBeeper();
 	}
-
 }

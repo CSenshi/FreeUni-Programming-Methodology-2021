@@ -13,7 +13,17 @@ public class Ex05 extends SuperKarel {
 
 	@Override
 	public void run() {
-		// You fill this in
+		while (frontIsClear()) {
+			putBeeperIfNotPresent();
+			move();
+		}
+		putBeeperIfNotPresent();
+	}
+
+	private void putBeeperIfNotPresent() {
+		if (noBeepersPresent()) {
+			putBeeper();
+		}
 	}
 
 }

@@ -12,6 +12,9 @@ public class Ex03 extends SuperKarel {
 
 	@Override
 	public void run() {
+		while (frontIsClear()) {
+			move();
+		}
 	}
 
 }
