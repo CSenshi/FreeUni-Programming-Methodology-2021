@@ -15,8 +15,13 @@ public class M2021S1Ex02 extends ConsoleProgram {
 
 	@Override
 	public void run() {
-		println(amIYourFatherLuke("CGAT", "CCTGACT")); // უნდა დაბეჭდოს false
-		println(amIYourFatherLuke("GATTA", "TTGATTT")); // უნდა დაბეჭდოს true
+		println(amIYourFatherLuke("CGAT", "CCTGACT"));
+		println(amIYourFatherLuke("GATA", "TTGATTT"));
+		println(amIYourFatherLuke("A", "AA"));
+		println("=================================="); 
+		println(amIYourFatherLuke("GATTA", "TTGATTT"));
+		println(amIYourFatherLuke("ATGC", "TTGCA"));
+		println(amIYourFatherLuke("AA", "AA"));
 	}
 
 	private boolean amIYourFatherLuke(String lukeDNA, String anakinDNA) {
